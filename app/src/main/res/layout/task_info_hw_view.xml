@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_name"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/name_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name_view"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/subject_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_view"
+        android:text="@string/subject_name"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/subject_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_view"
+        android:layout_toRightOf="@id/subject_view"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/class_view"
+        android:text="@string/class_name"
+        android:layout_below="@id/subject_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:layout_width="wrap_content"
+        android:id="@+id/class_value_view"
+        android:layout_below="@id/subject_view"
+        android:layout_toRightOf="@id/class_view"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/assigned_date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/class_view"
+        android:text="@string/assigned"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/assigned_date_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="date"
+        android:layout_below="@id/class_view"
+        android:layout_toRightOf="@id/assigned_date_view"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:layout_width="wrap_content"
+        android:text="@string/at"
+        android:id="@+id/assigned_at_view"
+        android:layout_toRightOf="@id/assigned_date_value_view"
+        android:layout_below="@id/class_value_view"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:layout_width="wrap_content"
+        tools:text="time"
+        android:id="@+id/assigned_time_value_view"
+        android:layout_below="@id/class_view"
+        android:layout_toRightOf="@id/assigned_at_view"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/due_date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assigned_date_view"
+        android:text="@string/due"/>
+
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:id="@+id/due_date_value_view"
+        android:layout_width="wrap_content"
+        tools:text="date"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/due_date_view"
+        android:layout_alignBottom="@+id/due_date_view"
+        android:layout_toRightOf="@+id/due_date_view"
+        android:layout_toEndOf="@+id/due_date_view"/>
+
+    <TextView
+        style="@style/add_text_view_style"
+        android:layout_width="wrap_content"
+        android:id="@+id/due_at_view"
+        android:text="@string/at"
+        android:layout_toRightOf="@id/due_date_value_view"
+        android:layout_below="@id/assigned_at_view"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        tools:text="time"
+        style="@style/add_text_view_style"
+        android:layout_width="wrap_content"
+        android:id="@+id/due_time_value_view"
+        android:layout_toRightOf="@id/due_at_view"
+        android:layout_below="@id/assigned_at_view"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

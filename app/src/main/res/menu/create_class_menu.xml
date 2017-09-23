@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="add class"
+        android:id="@+id/add_class_menu_item"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="ok"
+        app:showAsAction="always"
+        android:id="@+id/add_classes_menu_item"/>
+
+</menu>

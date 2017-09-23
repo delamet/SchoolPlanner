@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Style for adding/editing text views -->
+    <style name="add_text_view_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for text views in planner_homework_single_list -->
+    <style name="planner_homework_single_list_text_view">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Style for text views in planner_homework_single_cal -->
+    <style name="planner_homework_single_cal_text_view">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

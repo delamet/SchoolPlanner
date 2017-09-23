@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- dimensions for planner_homework_single_list-->
+    <dimen name="planner_homework_view_text_size">30sp</dimen>
+
+    <!-- dimensions for add_task_hw.xml-->
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_padding">8dp</dimen>
+
+</resources>

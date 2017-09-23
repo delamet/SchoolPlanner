@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">School Planner</string>
+    <string name="class_title">Class:</string>
+
+    <!-- Strings for planner_homework_single_list-->
+    <string name="due">Due</string>
+    <string name="at">at</string>
+
+    <!-- Strings for adding tasks menu -->
+    <string name="add_task">Add</string>
+
+    <!-- Strings for info task menu -->
+    <string name="edit_task">Edit</string>
+    <string name="complete_task">Complete</string>
+    <string name="delete">Delete</string>
+
+    <!-- Strings for add hw task-->
+    <string name="due_date">Due date:</string>
+    <string name="task_name">Name</string>
+    <string name="subject_name">Subject name</string>
+    <string name="class_name">Class name</string>
+    <string name="start_data">Start date:</string>
+    <string name="assigned">Assigned</string>
+
+    <!-- Strings for DatePickerFragment -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_date">Choose Date</string>
+
+    <!-- Strings for planner_selector_view-->
+    <string name="calendar">Calendar</string>
+    <string name="list">List</string>
+
+    <!-- Strings for planner_homework_single_cal -->
+    <string name="due_at">Due at</string>
+
+    <!-- Strings for create_semester -->
+    <string name="semester_name">Semester name</string>
+    <string name="semester_starts">Semester starts</string>
+    <string name="semester_ends">Semester ends</string>
+
+    <!-- Strings for create_class_dialog -->
+    <string name="enter_class_name">Enter class name</string>
+</resources>
